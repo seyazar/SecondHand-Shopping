@@ -1,0 +1,140 @@
+*{font-family: 'Noto Serif', serif;}
+
+td{border-left: 2px solid white;}
+tr{border: 2px solid white;}
+#maintable{width: 100%;
+	border-collapse: collapse;		
+	margin: 0 auto;}
+	#bluerow{
+		background-color: #87CEEB;
+		height: 40px;
+
+	}
+	#maindiv{margin: 0 auto;
+		text-align: center;
+		width: 100%;}
+		#maintable tr:nth-child(odd){background-color:#DCDCDC;}
+		#maintable tr:hover{background-color: #e6f0ff}
+		nav{display: flex;
+			text-align: center;
+			justify-content: space-between;
+			background-color: #004d80;
+			margin: 10px auto;
+			padding: 15px;}
+			#ilan:hover{background-color: #0073e6;
+				box-shadow: 5px 5px #4d94ff;
+
+				transition-duration: 1s;}
+				#ilan{
+					background-color: #0099ff;
+					border-radius: 8px;
+					color: white;
+					font-size: 15px;
+					height: 40px;
+					text-align: center;
+					cursor: pointer;
+					border:none;
+
+				}
+				#logo{
+					background-color: #ffff1a;
+					border-radius: 1px;
+
+				}
+				#logo a{text-decoration: none;
+					color: inherit;}
+					.link{color: white;
+						margin-top: 30px;
+
+					}
+					#search{width: 200px;
+						height: 30px;
+						margin-top: 20px;
+
+					}
+					#searchdiv{
+						display: flex;
+
+					}
+					#searchdiv img{width: 25px;
+						height: 35px;
+						cursor: pointer;
+						margin-top: 20px;
+						margin-left: 3px;}
+						.small{
+							width: 90px;
+							margin: 10px;
+						}
+						.bikedetail{
+							margin: 0 auto;
+							text-align: center;
+
+						}
+						.bikedetail table {
+							margin: 0 auto;
+							text-align: center;
+							border-bottom: 1px solid black;
+							border-collapse: collapse;
+						}
+						.welcome {
+
+							background-color: yellow
+							width:%100;
+						}
+
+
+
+
+
+
+					}
+					.bikedetail table a{text-decoration: none;
+						color: inherit;}
+
+						.back{margin:0 auto;
+							background-color: #ffff1a;
+							/* border:none; No border on buttons*/
+							width: 140px;
+							height: 40px;
+							border:none;
+							border-radius: 10px;
+							margin-right: 30px;}
+
+							.small:hover{
+								box-shadow: 5px 5px #4d94ff;
+
+							}
+
+
+							#buydiv{margin: 0 auto;
+								display: table; /*for moving div to center */
+								text-align: center;
+							}
+
+
+							.back a{
+								text-decoration: none;
+								color: inherit;/* for disabling the link underline and color*/
+								margin: 20px;
+								padding: 20px;
+							}
+							.money{width: 50px;
+								height: 50px;}
+								.homebutton{
+									background-color: #0099ff;
+									border-radius: 8px;
+									color: white;
+									font-size: 15px;
+									height: 40px;
+									text-align: center;
+									cursor: pointer;
+									border:none;
+									width: 140px;
+
+
+
+								}
+								.homebutton a{
+									text-decoration: none;
+									color: inherit;}
+									.silik{color:#666666;}
